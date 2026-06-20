@@ -1,0 +1,103 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: black;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.signin-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/9b4a1c52-3b93-4b4d-9a65-6b0e0ef5c975/9c1e5b1f-hero.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.6);
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero h3 {
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+/* Email Box */
+.email-box {
+    display: flex;
+    justify-content: center;
+}
+
+.email-box input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+}
+
+.email-box button {
+    padding: 10px 15px;
+    background: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Features */
+.features {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.feature {
+    max-width: 300px;
+}
+
+.feature h2 {
+    margin-bottom: 10px;
+}
